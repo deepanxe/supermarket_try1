@@ -14,17 +14,11 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/registration_header"
-            android:paddingTop="5dip"
-            android:paddingBottom="5dip">
-            <TextView
+            android:layout_height="match_parent">
+            <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:textColor="#372c24"
-                android:textSize="20dip"
-                android:text="Super Market"/>
+                android:layout_height="100dp"
+                android:background="@drawable/header"/>
         </LinearLayout>
 
 
@@ -35,14 +29,11 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="40dp">
+            android:layout_marginTop="110dp">
 
             <!-- Owner Name Label -->
-            <TextView android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#372c24"
-                android:text="Owner Name"/>
             <EditText android:id="@+id/reg_ownername"
+                android:hint="Owner Name"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dip"
@@ -50,11 +41,8 @@
                 android:layout_marginBottom="20dip"/>
 
             <!-- Supermarket Name Label -->
-            <TextView android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#372c24"
-                android:text="Supermarket Name"/>
             <EditText android:id="@+id/reg_supermarketname"
+                android:hint="Supermarket Name"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dip"
@@ -62,11 +50,8 @@
                 android:layout_marginBottom="20dip"/>
 
             <!--  Email Label -->
-            <TextView android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#372c24"
-                android:text="Email"/>
             <EditText android:id="@+id/reg_email"
+                android:hint="Email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dip"
@@ -74,11 +59,8 @@
                 android:layout_marginBottom="20dip"/>
 
             <!-- Phone Label -->
-            <TextView android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#372c24"
-                android:text="Supermarket Name"/>
             <EditText android:id="@+id/reg_phone"
+                android:hint="Phone Number"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dip"
@@ -86,23 +68,17 @@
                 android:layout_marginBottom="20dip"/>
 
             <!-- Area Label -->
-            <TextView android:layout_width="match_parent"
+            <Spinner
+                android:id="@+id/reg_area"
+                android:hint="Area Name"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#372c24"
-                android:text="Area Name"/>
-            <EditText android:id="@+id/reg_area"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dip"
-                android:singleLine="true"
-                android:layout_marginBottom="20dip"/>
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"/>
 
             <!-- Address Label -->
-            <TextView android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#372c24"
-                android:text="Supermarket Name"/>
             <EditText android:id="@+id/reg_address"
+                android:hint="Full Address"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dip"
@@ -126,17 +102,6 @@
                 android:gravity="center"
                 android:textSize="20dip"
                 android:textColor="#025f7c"/>
-
-
-            <LinearLayout android:id="@+id/footer"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="bottom">
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:background="@drawable/footer"/>
-            </LinearLayout>
 
         </LinearLayout>
         <!-- Registration Form Ends -->
