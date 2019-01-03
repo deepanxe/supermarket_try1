@@ -37,12 +37,24 @@
             android:layout_height="match_parent"
             android:layout_marginTop="40dp">
 
-            <!-- Full Name Label -->
+            <!-- Owner Name Label -->
             <TextView android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#372c24"
-                android:text="Full Name"/>
-            <EditText android:id="@+id/reg_fullname"
+                android:text="Owner Name"/>
+            <EditText android:id="@+id/reg_ownername"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+                android:layout_marginBottom="20dip"/>
+
+            <!-- Supermarket Name Label -->
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="Supermarket Name"/>
+            <EditText android:id="@+id/reg_supermarketname"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dip"
@@ -61,17 +73,41 @@
                 android:singleLine="true"
                 android:layout_marginBottom="20dip"/>
 
-            <!-- Password Label -->
+            <!-- Phone Label -->
             <TextView android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#372c24"
-                android:text="Password"/>
-            <EditText android:id="@+id/reg_password"
-                android:layout_width="match_parent"
+                android:text="Supermarket Name"/>
+            <EditText android:id="@+id/reg_phone"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:password="true"
+                android:layout_marginTop="5dip"
                 android:singleLine="true"
-                android:layout_marginTop="5dip"/>
+                android:layout_marginBottom="20dip"/>
+
+            <!-- Area Label -->
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="Area Name"/>
+            <EditText android:id="@+id/reg_area"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+                android:layout_marginBottom="20dip"/>
+
+            <!-- Address Label -->
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="Supermarket Name"/>
+            <EditText android:id="@+id/reg_address"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+                android:layout_marginBottom="20dip"/>
 
             <!-- Register Button -->
             <Button android:id="@+id/btnRegister"
