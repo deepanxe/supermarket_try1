@@ -36,36 +36,36 @@
                 android:hint="Owner Name"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dip"
+                android:layout_marginTop="5dp"
                 android:singleLine="true"
-                android:layout_marginBottom="20dip"/>
+                android:layout_marginBottom="20dp"/>
 
             <!-- Supermarket Name Label -->
             <EditText android:id="@+id/reg_supermarketname"
                 android:hint="Supermarket Name"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dip"
+                android:layout_marginTop="5dp"
                 android:singleLine="true"
-                android:layout_marginBottom="20dip"/>
+                android:layout_marginBottom="20dp"/>
 
             <!--  Email Label -->
             <EditText android:id="@+id/reg_email"
                 android:hint="Email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dip"
+                android:layout_marginTop="5dp"
                 android:singleLine="true"
-                android:layout_marginBottom="20dip"/>
+                android:layout_marginBottom="20dp"/>
 
             <!-- Phone Label -->
             <EditText android:id="@+id/reg_phone"
                 android:hint="Phone Number"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dip"
+                android:layout_marginTop="5dp"
                 android:singleLine="true"
-                android:layout_marginBottom="20dip"/>
+                android:layout_marginBottom="20dp"/>
 
             <!-- Area Label -->
             <Spinner
@@ -81,26 +81,26 @@
                 android:hint="Full Address"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dip"
+                android:layout_marginTop="5dp"
                 android:singleLine="true"
-                android:layout_marginBottom="20dip"/>
+                android:layout_marginBottom="20dp"/>
 
             <!-- Register Button -->
             <Button android:id="@+id/btnRegister"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dip"
+                android:layout_marginTop="10dp"
                 android:text="Register New Account"/>
 
             <!-- Link to Login Screen -->
             <TextView android:id="@+id/link_to_login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dip"
-                android:layout_marginBottom="40dip"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
                 android:text="Already has account! Login here"
                 android:gravity="center"
-                android:textSize="20dip"
+                android:textSize="20dp"
                 android:textColor="#025f7c"/>
 
         </LinearLayout>
